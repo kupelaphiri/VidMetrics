@@ -1,0 +1,30 @@
+# Environment variables
+.env*.local
+
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build artifacts
+next-env.d.ts
+
+# OS
+.DS_Store
+Thumbs.db
+
+# v0 sandbox internals (not part of the project)
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+next.user-config.*
+
+# Vercel
+.vercel/
+
+# Supabase local
+supabase/.temp/
